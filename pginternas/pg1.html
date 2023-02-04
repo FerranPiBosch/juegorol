@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalice.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Camino a casa</title>
+</head>
+
+<body>
+    <header >
+        <h1 class="titulo_header"><a href="../index.html"> CAMINO A CASA</a></h1>
+    </header>
+    <div>
+        <article class="atributos ">
+            <h5 class="texto_amarillo">Tus estadísticas</h5>
+            <img src="../media/corazon.png" alt="" class="icono">
+            <p id="cantidadvida"></p>
+            <img src="../media/espada.png" alt="" class="icono">
+            <p id="cantidadfuerza"></p>
+            <img src="../media/suerte.jpg" alt="" class="icono">
+            <p id="cantidadsuerte"></p>
+        </article>
+    </div>
+    <main >  
+        <section class="imagen_taberna " id="taberna">
+                <article>
+                        <h3 class="texto_amarillo">En la taberna</h3>
+                        <p>Te despiertas en la taberna, <br> tus babas hace rato que gotean encima de la barra... <br> No recuerdas cuantas cervezas te has tomado pero secandote las babas de la mejilla con el dorso de la mano, buscas con la mirada al tabernero y le gritas:... <br> PONME LA ÚLTIMA! </p>
+                        <button class="empezar" id="boton_zumo">Pedir un zumo de naranja (+5 fuerza)</button>
+                        <button class="empezar" id="boton_agua">Pedir un vaso de agua  (+5 vitalidad)</button>
+                        <button class="empezar" id="boton_vino">Pedir una copa de vino  (+1 suerte)</button>
+                </article>
+        </section>
+        <section class="imagen_borracho invisible" id="conflicto">
+            <article>
+                    <h3 class="texto_amarillo">Conflicto con un borracho</h3>
+                    <p>Cuando ya salías de la taberna... <br> No te has dado cuenta que al otro lado de la puerta había un borracho que ha confudido estirar con empujar... <br> Le has dado con la puerta en los morros... hecho que le enfurece y ahora quiere cobrarse la venganza... </p>
+                    <button class="empezar" id="boton_luchar1">Luchar contra el enemigo (4 fuerza 10 vida) </button>
+                    <button class="empezar" id="boton_huir1">Intentar huir (dado)</button>
+            </article>
+        </section>
+        <section class="imagen_lucha invisible" id="pelea1">
+            <article>
+                    <h3 class="texto_amarillo">Estádisticas del enemigo</h3>
+                        <div class="div1">
+                            <img src="../media/corazon.png" alt="" class="icono">
+                            <p id="cantidadvida_borracho"></p>
+                            <img src="../media/espada.png" alt="" class="icono">
+                            <p id="cantidadfuerza_borracho"></p>
+                        </div>
+                    <h3 class="texto_amarillo">Lucha de borrachos</h3>
+                    <p>Sin tiempo para que te lo pensaras dos veces, el borracho se avalanza sobre ti agitando los brazos como dos helices que avanzan hacia tí de forma violenta... <br> Es el momento de actuar...</p>
+                    <button class="enfrentamiento" id="boton_enfrentamiento1"><img src="../media/enfrentamiento.png" alt="" class="espadas"> Enfrentamiento  <img src="../media/enfrentamiento.png" alt="" class="espadas"> </button>
+
+            </article>
+
+        </section>
+        <section class="imagen_gato invisible " id="gato">
+            <article>
+                    <h3 class="texto_amarillo">Entre callejones</h3>
+                    <p>Sales del callejon de la tarbena sacudiendote el abrigo <br> cuando oyes el maullar de un gatito... <br> está muerto de frio y hambre... <br> Como de costumbre, habías cogido unas cuantas cortezas de cerdo antes de salir de la taberna, para picar por el camino...</p>
+                    <button class="empezar" id="alimentar">Alimentar al gato (-1 vida +1 suerte) </button>
+                    <button class="empezar" id="boton_pasar">Pasar del gato</button>
+            </article>
+        </section>
+        <section class="imagen_portal invisible  " id="portal">
+            <article>
+                    <h3 class="texto_amarillo">En el portal de casa</h3>
+                    <p>Llegas al portal... <br> Buscas como un poseso entre todos los bolsillos de tu abrigo... <br> ¿DONDE ESTAN MIS LLAVES?... <br>Lo más seguro es que se te han caido en la taberna... <br> ...y ¿Ahora que?</p>
+                    <button class="empezar" id="timbre">Picar al timbre (enfrentamiento) </button>
+                    <button class="empezar" id="dormir">Acurrucarse en el portal (tirar dado)</button>
+            </article>
+        </section>
+
+        <section class="imagen_mujer invisible" id="mujer">
+            <article>
+                    <h3 class="texto_amarillo">Estádisticas de tu mujer</h3>
+                        <div class="div1">
+                            <img src="../media/corazon.png" alt="" class="icono">
+                            <p id="cantidadvida_mujer"></p>
+                            <img src="../media/espada.png" alt="" class="icono">
+                            <p id="cantidadfuerza_mujer"></p>
+                        </div>
+                    <h3 class="texto_amarillo">Lucha contra tu mujer</h3>
+                    <p>La puerta se ha abierto apenas unos milimetros y ya oyes la voz de tu mujer:... <br> ...QUE HORAS SON ESTAS?...<br>NO SABES QUE DÍA ERA HOY?... <br> ...La puerta se ha abierto ya lo suficiente para ver la furia brillar en sus ojos... </p>
+                    <button class="enfrentamiento" id="boton_muerte"><img src="../media/enfrentamiento.png" alt="" class="espadas"> Enfrentamiento  <img src="../media/enfrentamiento.png" alt="" class="espadas"> </button>
+
+            </article>
+
+        </section>
+        
+        <section class="imagen_derrota invisible" id="derrota">
+            <h1 class="texto_amarillo"> HAS MUERTOO!!!!</h1>
+            <p class="texto_muerte">Tienes dos opciones, aprender a beber o aprender a luchar. <br> Seguro que tienes más "¡SUERTE!" la proxima vez...</p>
+        </section>
+        <section class="imagen_derrota2 invisible" id="derrota2">
+            <h1 class="texto_amarillo"> HAS MUERTOO!!!!</h1>
+            <p class="texto_muerte">De verdad creías que tenías alguna opción?... <br>...No hay suerte que te pueda ayudar a ganar a tu mujer...</p>
+        </section>
+        <section class="imagen_victoria invisible" id="victoria">
+            <h5 class="texto_amarillo">Lo podemos considerar una...</h5>
+            <h1 class="texto_amarillo">VICTORIAAAA!!!!</h1>
+            <p >Te acurrucas sigilosamente cual gato en el felpudo de la puerta... <br> <br> <br> ...Mañana será otro día...</p>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="../js/script.js"></script>  
+</body>
+</html>

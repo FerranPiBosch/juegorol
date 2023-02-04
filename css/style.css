@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    text-shadow: 2px 2px black;
+}
+header{
+    background-image: url(../media/juego-rol.jpg);
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.titulo_header{
+    font-size: 8vw;
+    color:gold;
+    text-shadow: 5px black;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.texto_amarillo{
+    color: gold;
+}
+.empezar{
+    width: 50%;
+    height: 100px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    color: gold;
+    background-color: rgb(87, 87, 87);
+    font-size: 2vw;
+}
+.enfrentamiento{
+    width: 50%;
+    height: 100px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    color: gold;
+    background-color: rgb(87, 87, 87);
+    font-size: 2vw;
+}
+.empezar:hover{
+    background-color: darkgrey;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
+.enfrentamiento:hover{
+    background-color: darkgrey;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
+.espadas{
+    width: 7%;
+}
+a{
+    text-decoration: none;
+    color: gold;
+}
+.imagen_taberna{
+    background-image: url(../media/taberna.jpg);
+    height: 1500px;
+}
+.imagen_borracho{
+    background-image: url(../media/pelea1.jpg);
+    height: 1000px;
+}
+.imagen_lucha{
+    background-image: url(../media/lucha);
+    height: 1000px;
+}
+.imagen_gato{
+    background-image: url(../media/gato.jpg);
+    margin: auto;
+    height: 400px;
+    width: 70%;
+}
+.imagen_derrota{
+    background-image: url(../media/muerte.jpg);
+    height: 1000px;
+    padding-top: 20px;
+}
+.imagen_derrota2{
+    background-image: url(../media/derrota2.jpg!d);
+    height: 1000px;
+    padding-top: 20px;
+}
+.imagen_victoria{
+    background-image: url(../media/victoria.jpg);
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+.imagen_portal{
+    background-image: url(../media/puerta.jpg);
+    height: 1000px;
+}
+.imagen_mujer{
+    background-image: url(../media/pelea2.jpg);
+    height: 1000px;
+}
+.texto_muerte{
+    margin-top: 400px;
+}
+.atributos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.icono{
+    width: 3%;
+    height: 40px;
+}
+.tirada_dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dado{
+    width: 5%;
+}
+h5{
+    margin-right: 50px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-shadow: 2px black;
+}
+.invisible{
+    display:none;
+}
